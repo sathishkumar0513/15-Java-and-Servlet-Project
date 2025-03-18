@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Online Poll System</title>
+</head>
+<body>
+    <h1>Welcome to the Online Poll</h1>
+    <form action="PollServlet" method="post">
+        <p>Vote for your favorite option:</p>
+        <input type="radio" name="option" value="Option A" required> Option A<br>
+        <input type="radio" name="option" value="Option B" required> Option B<br>
+        <input type="radio" name="option" value="Option C" required> Option C<br>
+        <input type="radio" name="option" value="Option D" required> Option D<br>
+        <button type="submit">Vote</button>
+    </form>
+    <hr>
+    <a href="PollServlet">View Poll Results</a>
+</body>
+</html>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" id="WebApp_ID" version="6.0">
+  <display-name>Java and Servlet Projects</display-name>
+  <servlet>
+  <servlet-name>login</servlet-name>
+  <servlet-class>com.javaandServletProjectsPack.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>login</servlet-name>
+  <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>Register</servlet-name>
+  <servlet-class>com.javaandServletProjectsPack.RegistrationServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Register</servlet-name>
+  <url-pattern>/RegistrationServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  <servlet-name>Temperature Converter</servlet-name>
+  <servlet-class>com.javaandServletProjectsPack.TemperatureConverterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Temperature Converter</servlet-name>
+  <url-pattern>/TemperatureConverterServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  <servlet-name>To-Do List Application</servlet-name>
+  <servlet-class>com.javaandServletProjectsPack.ToDoListServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>To-Do List Application</servlet-name>
+  <url-pattern>/ToDoListServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>Simple Calculator</servlet-name>
+  <servlet-class>com.javaandServletProjectsPack.CalculatorServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Simple Calculator</servlet-name>
+  <url-pattern>/CalculatorServlet</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+  <servlet-name>Session Tracking</servlet-name>
+  <servlet-class>com.javaandServletProjectsPack.SessionTrackingServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Session Tracking</servlet-name>
+  <url-pattern>/SessionTrackingServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>Contact Form</servlet-name>
+  <servlet-class>com.javaandServletProjectsPack.ContactFormServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Contact Form</servlet-name>
+  <url-pattern>/ContactFormServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>Simple Interest Calculator</servlet-name>
+  <servlet-class>com.javaandServletProjectsPack.InterestCalculatorServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Simple Interest Calculator</servlet-name>
+  <url-pattern>/InterestCalculatorServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>Random Quote Generator</servlet-name>
+  <servlet-class>com.javaandServletProjectsPack.QuoteServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Random Quote Generator</servlet-name>
+  <url-pattern>/QuoteServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>Feedback Form</servlet-name>
+  <servlet-class>com.javaandServletProjectsPack.FeedbackServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Feedback Form</servlet-name>
+  <url-pattern>/FeedbackServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>Weather App</servlet-name>
+  <servlet-class>com.javaandServletProjectsPack.WeatherServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Weather App</servlet-name>
+  <url-pattern>/WeatherServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>Online Poll System</servlet-name>
+  <servlet-class>com.javaandServletProjectsPack.PollServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Online Poll System</servlet-name>
+  <url-pattern>/PollServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+        <servlet-name>StudentId</servlet-name>
+        <servlet-class>com.studentIdPack.StudentId</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StudentId</servlet-name>
+        <url-pattern>/StudentId</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Event Registration</servlet-name>
+        <servlet-class>com.studentIdPack.EventRegistrationServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Event Registration</servlet-name>
+        <url-pattern>/EventRegistrationServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Product Catalog</servlet-name>
+        <servlet-class>com.studentIdPack.ProductCatalogServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Product Catalog</servlet-name>
+        <url-pattern>/ProductCatalogServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
+</element>
